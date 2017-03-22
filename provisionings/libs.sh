@@ -14,4 +14,5 @@ yum install -y git
 yum install -y openssl-devel readline-devel zlib-devel
 yum install -y vlgothic-*
 yum install -y google-chrome-stable
+yum install -y ImageMagick ImageMagick-devel
 yum install -y gnuplot

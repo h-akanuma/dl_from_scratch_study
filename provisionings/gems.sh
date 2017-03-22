@@ -2,6 +2,7 @@
 
 gem install daru
 gem install rbczmq
+gem install rmagick
 gem install numo-gnuplot
 
 git clone git://github.com/ruby-numo/narray
