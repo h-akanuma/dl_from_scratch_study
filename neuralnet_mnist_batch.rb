@@ -5,7 +5,7 @@ require './softmax.rb'
 require './mnist.rb'
 
 def get_data
-  x_train, t_train, x_test, t_test = load_mnist(true, true, false)
+  x_train, t_train, x_test, t_test = load_mnist(normalize: true, flatten: true, one_hot_label: false)
   [x_test, t_test]
 end
 

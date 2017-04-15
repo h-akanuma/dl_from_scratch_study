@@ -8,10 +8,10 @@ def numerical_gradient(f, x)
     tmp_val = x[i]
 
     x[i] = tmp_val + h
-    fxh1 = f.call(x)
+    fxh1 = f.call
 
     x[i] = tmp_val - h
-    fxh2 = f.call(x)
+    fxh2 = f.call
 
     grad[i] = (fxh1 - fxh2) / (2 * h)
     x[i] = tmp_val

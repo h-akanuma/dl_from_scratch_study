@@ -80,7 +80,7 @@ def change_one_hot_label(x)
   Numo::UInt8[*one_hot_arrays]
 end
 
-def load_mnist(normalize = true, flatten = true, one_hot_label = false)
+def load_mnist(normalize: true, flatten: true, one_hot_label: false)
   unless File.exist?(SAVE_FILE)
     init_mnist
   end
