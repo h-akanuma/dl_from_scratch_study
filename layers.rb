@@ -48,6 +48,10 @@ class Affine
     @db = nil
   end
 
+  def w
+    @w
+  end
+
   def dw
     @dw
   end
